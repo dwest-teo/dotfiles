@@ -29,7 +29,6 @@ if test "$(which code)"; then
     idleberg.applescript
     joshpeng.sublime-babel-vscode
     jpoissonnier.vscode-styled-components
-    lukehoban.Go
     mauve.terraform
     msjsdiag.debugger-for-chrome
     naumovs.color-highlight

@@ -1,7 +1,6 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
-tap 'homebrew/versions'
 
 brew 'diff-so-fancy'
 brew 'ffmpeg'
@@ -59,7 +58,6 @@ cask 'slack'
 cask 'alfred'
 
 # https://github.com/sindresorhus/quick-look-plugins
-cask 'betterzipql'
 cask 'qlcolorcode'
 cask 'qlimagesize'
 cask 'qlmarkdown'

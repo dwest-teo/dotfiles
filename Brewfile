@@ -17,6 +17,7 @@ brew 'wget'
 brew 'zsh'
 brew 'yarn'
 brew 'awscli'
+brew 'rbenv'
 
 # gnu stuff
 brew 'coreutils'

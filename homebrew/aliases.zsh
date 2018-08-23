@@ -4,7 +4,6 @@ if which brew >/dev/null 2>&1; then
     case "$1" in
       cleanup)
         command brew cleanup
-        command brew cask cleanup
         command brew prune
         rm -rf "$(brew --cache)"
         ;;

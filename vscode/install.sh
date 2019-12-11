@@ -11,29 +11,39 @@ if test "$(which code)"; then
 
   # from `code --list-extensions`
   modules="
-    EditorConfig.EditorConfig
-    PKief.material-icon-theme
-    PeterJausovec.vscode-docker
     aaronthomas.vscode-snazzy-operator
     alefragnani.project-manager
     andrejunges.Handlebars
     blanu.vscode-styled-jsx
+    BriteSnow.vscode-toggle-quotes
+    burkeholland.simple-react-snippets
     chiragpat.tomorrow-and-tomorrow-night-operator-mono-theme
     christian-kohler.npm-intellisense
     christian-kohler.path-intellisense
     dbaeumer.vscode-eslint
+    dcortes92.FreeMarker
     donjayamanne.githistory
+    EditorConfig.EditorConfig
     eg2.vscode-npm-script
+    esbenp.prettier-vscode
     flowtype.flow-for-vscode
     formulahendry.auto-close-tag
+    formulahendry.auto-rename-tag
     idleberg.applescript
     joshpeng.sublime-babel-vscode
     jpoissonnier.vscode-styled-components
     mauve.terraform
+    mikestead.dotenv
+    ms-azuretools.vscode-docker
+    ms-vscode.Go
     msjsdiag.debugger-for-chrome
     naumovs.color-highlight
-    rebornix.Ruby
+    PKief.material-icon-theme
+    rebornix.ruby
     samverschueren.linter-xo
+    whizkydee.material-palenight-theme
+    whtouche.vscode-js-console-utils
+    wingrunr21.vscode-ruby
   "
   for module in $modules; do
     code --install-extension "$module" || true

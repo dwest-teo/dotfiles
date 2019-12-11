@@ -40,7 +40,6 @@ tap 'getantibody/homebrew-antibody'
 brew 'antibody'
 
 # casks
-tap 'homebrew/cask-cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 

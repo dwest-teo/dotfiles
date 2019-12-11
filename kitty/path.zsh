@@ -1,2 +1,2 @@
 #!/bin/sh
-export KITTY_CONFIG_DIRECTORY="$ZSH/kitty"
+export KITTY_CONFIG_DIRECTORY="$ZSH/kitty/kitty.conf"

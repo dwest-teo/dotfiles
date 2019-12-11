@@ -40,9 +40,9 @@ tap 'getantibody/homebrew-antibody'
 brew 'antibody'
 
 # casks
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
-tap 'caskroom/versions'
+tap 'homebrew/cask-cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
 
 cask 'diffmerge'
 cask 'docker'

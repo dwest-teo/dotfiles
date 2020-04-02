@@ -9,6 +9,7 @@ AWS_SECRET_ACCESS_KEY=$(aws configure get aws_secret_access_key) \
 AWS_DEFAULT_REGION=$(aws configure get region)
 
 function assume_role() {
+  set -x
   account_id=${1}
   role_name=${2}
   echo "MFA token: "

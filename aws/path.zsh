@@ -9,12 +9,11 @@ AWS_SECRET_ACCESS_KEY=$(aws configure get aws_secret_access_key) \
 AWS_DEFAULT_REGION=$(aws configure get region)
 
 function assume_role() {
-  set -x
   account_id=${1}
   role_name=${2}
   echo "MFA token: "
   read token
-  tmp_json=$(aws sts assume-role --serial-number arn:aws:iam::503818648656:mfa/dwest --role-arn arn:aws:iam::${account_id}:role/$role_name --role-session-name 'RoleSession1' --profile default --token-code $token)
+  tmp_json=$(aws sts assume-role --serial-number arn:aws:iam::503818648656:mfa/dwest --role-arn arn:aws:iam::${account_id}:role/$role_name --role-session-name 'RoleSession1' --profile dwest --token-code $token)
   ec=$?
   if [[ $ec = 0 ]]
   then

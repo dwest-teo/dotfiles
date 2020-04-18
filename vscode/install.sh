@@ -10,6 +10,7 @@ if test "$(which code)"; then
   ln -sf "$ZSH/vscode/keybindings.json" "$VSCODE_HOME/User/keybindings.json"
 
   # from `code --list-extensions`
+  # temporarily removed joshpeng.sublime-babel-vscode
   modules="
     aaronthomas.vscode-snazzy-operator
     alefragnani.project-manager
@@ -30,7 +31,6 @@ if test "$(which code)"; then
     formulahendry.auto-close-tag
     formulahendry.auto-rename-tag
     idleberg.applescript
-    joshpeng.sublime-babel-vscode
     jpoissonnier.vscode-styled-components
     mauve.terraform
     mikestead.dotenv

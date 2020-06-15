@@ -70,7 +70,7 @@ cask 'kap'
 # cask 'macdown'
 cask 'runjs'
 cask 'dash'
-cask 'geekbench'
+# cask 'geekbench'
 
 # https://github.com/sindresorhus/quick-look-plugins
 cask 'qlcolorcode'

@@ -16,7 +16,7 @@ check_dependencies() {
       ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     else
       echo "  Unsupported OS"
-      exit 1
+      # exit 1
     fi
   fi
   if test ! "$(which git)"; then

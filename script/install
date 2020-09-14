@@ -16,7 +16,7 @@ check_dependencies() {
       ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     else
       echo "  Unsupported OS"
-      # exit 1
+      exit 1
     fi
   fi
   if test ! "$(which git)"; then
@@ -32,7 +32,7 @@ main() {
     echo "'~/.dotfiles' folder already exists, back it up and run 'install' again"
     exit 1
   fi
-  check_dependencies
+  # check_dependencies
   git clone --recursive https://github.com/dwest-teo/dotfiles ~/.dotfiles
   cd ~/.dotfiles
   bash script/bootstrap

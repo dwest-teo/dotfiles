@@ -10,7 +10,10 @@ if test "$(which code)"; then
   ln -sf "$ZSH/vscode/keybindings.json" "$VSCODE_HOME/User/keybindings.json"
 
   # from `code --list-extensions`
-  # temporarily removed joshpeng.sublime-babel-vscode
+  # temporarily removed:
+  # joshpeng.sublime-babel-vscode
+  # mauve.terraform
+  # ms-vscode.Go
   modules="
     aaronthomas.vscode-snazzy-operator
     alefragnani.project-manager
@@ -32,10 +35,8 @@ if test "$(which code)"; then
     formulahendry.auto-rename-tag
     idleberg.applescript
     jpoissonnier.vscode-styled-components
-    mauve.terraform
     mikestead.dotenv
     ms-azuretools.vscode-docker
-    ms-vscode.Go
     msjsdiag.debugger-for-chrome
     naumovs.color-highlight
     PKief.material-icon-theme
@@ -45,6 +46,7 @@ if test "$(which code)"; then
     whtouche.vscode-js-console-utils
     wingrunr21.vscode-ruby
   "
+
   for module in $modules; do
     code --install-extension "$module" || true
   done

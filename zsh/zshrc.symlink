@@ -2,8 +2,11 @@
 # shortcut to this dotfiles path is $ZSH
 export ZSH="$HOME/.dotfiles"
 
+# your code folder that we can `c [tab]` to
+export CODEDIR="/mnt/Storage/Code"
+
 # your project folder that we can `c [tab]` to
-export PROJECTS="$HOME/Projects"
+export PROJECTS="/mnt/Storage/Projects"
 
 # your default editor
 # export EDITOR='subl'

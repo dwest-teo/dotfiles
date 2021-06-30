@@ -3,7 +3,7 @@ if test "$(which code)"; then
   if [ "$(uname -s)" = "Darwin" ]; then
     VSCODE_HOME="$HOME/Library/Application Support/Code"
   else
-    VSCODE_HOME="$HOME/.config/Code"
+    VSCODE_HOME="$HOME/.config/Code - OSS"
   fi
 
   ln -sf "$ZSH/vscode/settings.json" "$VSCODE_HOME/User/settings.json"

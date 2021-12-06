@@ -30,9 +30,7 @@
   },
   "editor.tabSize": 2,
   "editor.fontFamily": "Operator Mono",
-  "editor.rulers": [
-    100
-  ],
+  "editor.rulers": [100],
   "editor.wordWrap": "on",
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
@@ -45,7 +43,6 @@
   "terminal.integrated.fontFamily": "Operator Mono",
   "terminal.integrated.fontSize": 11,
   "window.openFoldersInNewWindow": "on",
-  "window.reopenFolders": "all",
   "color-highlight.markerType": "dot-after",
   "auto-close-tag.SublimeText3Mode": true,
   "projectManager.vscode.baseFolders": [
@@ -76,11 +73,34 @@
   "projectManager.git.maxDepthRecursion": 1,
   "projectManager.cacheProjectsBetweenSessions": true,
   "files.associations": {
-    "*.html": "handlebars"
+    "*.html": "handlebars",
+    "*.tsx": "typescriptreact"
   },
-  "workbench.colorTheme": "Snazzy Operator",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.decorations.badges": true,
   "typescript.check.npmIsInstalled": false,
   "git.enableSmartCommit": true,
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "typescript.validate.enable": true,
+  "javascript.validate.enable": true,
+  "css.validate": false,
+  "editor.formatOnSave": true,
+  "bracketPairColorizer.showHorizontalScopeLine": false,
+  "bracketPairColorizer.consecutivePairColors": [
+    "()",
+    "[]",
+    "{}",
+    ["#ff6ac1", "#9aedfe", "#57c7ff"],
+    "Red"
+  ],
+  "workbench.settings.editor": "json",
+  "workbench.colorTheme": "Snazzy Operator",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open"
 }

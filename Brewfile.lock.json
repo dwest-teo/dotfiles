@@ -8,10 +8,10 @@
         "revision": "2decde79777dda7c1b6be8299a2477295d6da0d2"
       },
       "homebrew/cask-fonts": {
-        "revision": "9a26765a3c706504a1147e9e5c75fb316c23b3bc"
+        "revision": "a4eee8c045db8c701a7aec1904ba5d2b12ab6a07"
       },
       "homebrew/cask-versions": {
-        "revision": "de9a6eb615f740042ea9101614cb6a6ac23b4f61"
+        "revision": "a870c175a24ccab5f120d15f862910133320338c"
       }
     },
     "brew": {
@@ -1403,7 +1403,7 @@
         }
       },
       "insomnia": {
-        "version": "2021.7.0",
+        "version": "2021.7.1",
         "options": {
           "full_name": "insomnia",
           "args": {
@@ -1596,7 +1596,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.3.7",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "24ed8058b8756647a9d2367236d6c1d79eaa540c",
+        "Homebrew/homebrew-core": "12e05b99786589136f4474f5ae50eab9b42300e4",
         "CLT": "13.1.0.0.1.1633545042",
         "Xcode": "13.1",
         "macOS": "12.0.1"

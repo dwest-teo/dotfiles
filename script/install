@@ -33,7 +33,7 @@ main() {
     exit 1
   fi
   check_dependencies
-  git clone --recursive https://github.com/dwest-teo/dotfiles ~/.dotfiles
+  git clone --recursive --branch mac https://github.com/dwest-teo/dotfiles ~/.dotfiles
   cd ~/.dotfiles
   bash script/bootstrap
   echo "Thundercats Are GOOOOO! Restart your terminal session to complete install"

@@ -57,3 +57,12 @@ if [ -f '/Users/donny/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/donny/goo
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/donny/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/donny/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Homebrew path depending on arch (native vs rosetta)
+if [ "$(arch)" = "arm64" ]; then
+ eval $(/opt/homebrew/bin/brew shellenv);
+ export PATH="$PATH:/usr/local/bin:/usr/local/sbin";
+else
+ eval $(/usr/local/bin/brew shellenv);
+ export PATH="$PATH:/opt/homebrew/bin:/opt/homebrew/sbin";
+fi

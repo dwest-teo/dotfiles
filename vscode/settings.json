@@ -30,7 +30,9 @@
   },
   "editor.tabSize": 2,
   "editor.fontFamily": "Operator Mono",
-  "editor.rulers": [100],
+  "editor.rulers": [
+    100
+  ],
   "editor.wordWrap": "on",
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
@@ -91,16 +93,22 @@
     "()",
     "[]",
     "{}",
-    ["#ff6ac1", "#9aedfe", "#57c7ff"],
+    [
+      "#ff6ac1",
+      "#9aedfe",
+      "#57c7ff"
+    ],
     "Red"
   ],
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "Snazzy Operator",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "gitlens.currentLine.format": "${author, }${agoOrDate}${' via 'pullRequest}"
 }

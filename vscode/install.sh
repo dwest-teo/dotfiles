@@ -12,12 +12,10 @@ if test "$(which code)"; then
   # from `code --list-extensions`
   modules="
     aaronthomas.vscode-snazzy-operator
-    alefragnani.project-manager
     andrejunges.Handlebars
     blanu.vscode-styled-jsx
     BriteSnow.vscode-toggle-quotes
     burkeholland.simple-react-snippets
-    chiragpat.tomorrow-and-tomorrow-night-operator-mono-theme
     christian-kohler.npm-intellisense
     christian-kohler.path-intellisense
     dbaeumer.vscode-eslint
@@ -31,17 +29,14 @@ if test "$(which code)"; then
     formulahendry.auto-rename-tag
     idleberg.applescript
     joshpeng.sublime-babel-vscode
-    jpoissonnier.vscode-styled-components
     mauve.terraform
     mikestead.dotenv
     ms-azuretools.vscode-docker
     ms-vscode.Go
-    msjsdiag.debugger-for-chrome
     naumovs.color-highlight
     PKief.material-icon-theme
     rebornix.ruby
     samverschueren.linter-xo
-    whizkydee.material-palenight-theme
     whtouche.vscode-js-console-utils
     wingrunr21.vscode-ruby
   "

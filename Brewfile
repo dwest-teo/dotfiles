@@ -73,7 +73,7 @@ cask 'runjs'
 cask 'geekbench'
 
 # https://github.com/sindresorhus/quick-look-plugins
-cask 'qlcolorcode'
+# cask 'qlcolorcode'
 cask 'qlimagesize'
 # cask 'qlmarkdown'
 cask 'qlprettypatch'

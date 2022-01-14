@@ -12,8 +12,9 @@ if test "$(which code)"; then
   # from `code --list-extensions`
   modules="
     aaronthomas.vscode-snazzy-operator
+    alexkrechik.cucumberautocomplete
     andrejunges.Handlebars
-    blanu.vscode-styled-jsx
+    bradlc.vscode-tailwindcss
     BriteSnow.vscode-toggle-quotes
     burkeholland.simple-react-snippets
     christian-kohler.npm-intellisense
@@ -21,22 +22,31 @@ if test "$(which code)"; then
     dbaeumer.vscode-eslint
     dcortes92.FreeMarker
     donjayamanne.githistory
+    eamodio.gitlens
     EditorConfig.EditorConfig
     eg2.vscode-npm-script
     esbenp.prettier-vscode
     flowtype.flow-for-vscode
     formulahendry.auto-close-tag
     formulahendry.auto-rename-tag
+    GitHub.vscode-pull-request-github
+    golang.go
+    GraphQL.vscode-graphql
+    hashicorp.terraform
     idleberg.applescript
     joshpeng.sublime-babel-vscode
-    mauve.terraform
+    jpoissonnier.vscode-styled-components
+    kvnxush.one-dark-operator-theme
     mikestead.dotenv
     ms-azuretools.vscode-docker
-    ms-vscode.Go
+    ms-vscode-remote.remote-containers
     naumovs.color-highlight
+    neilding.language-liquid
+    octref.vetur
     PKief.material-icon-theme
     rebornix.ruby
-    samverschueren.linter-xo
+    stylelint.vscode-stylelint
+    whizkydee.material-palenight-theme
     whtouche.vscode-js-console-utils
     wingrunr21.vscode-ruby
   "

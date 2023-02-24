@@ -30,15 +30,13 @@
   },
   "editor.tabSize": 2,
   "editor.fontFamily": "Operator Mono",
-  "editor.rulers": [
-    100
-  ],
+  "editor.rulers": [100],
   "editor.wordWrap": "on",
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
   "editor.renderWhitespace": "boundary",
-  "editor.renderIndentGuides": true,
   "editor.cursorBlinking": "phase",
+  "editor.bracketPairColorization.enabled": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "terminal.external.osxExec": "iTerm.app",
@@ -93,11 +91,7 @@
     "()",
     "[]",
     "{}",
-    [
-      "#ff6ac1",
-      "#9aedfe",
-      "#57c7ff"
-    ],
+    ["#ff6ac1", "#9aedfe", "#57c7ff"],
     "Red"
   ],
   "workbench.settings.editor": "json",
@@ -110,5 +104,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "security.workspace.trust.untrustedFiles": "open",
-  "gitlens.currentLine.format": "${author, }${agoOrDate}${' via 'pullRequest}"
+  "gitlens.currentLine.format": "${author, }${agoOrDate}${' via 'pullRequest}",
+  "editor.guides.indentation": true,
+  "githubPullRequests.pullBranch": "never"
 }

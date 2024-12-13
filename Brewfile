@@ -36,8 +36,8 @@ brew 'gnu-indent'
 brew 'gnu-getopt'
 
 # antibody
-tap 'getantibody/homebrew-antibody'
-brew 'antibody'
+# tap 'getantibody/homebrew-antibody'
+# brew 'antibody'
 
 # casks
 tap 'homebrew/cask-fonts'

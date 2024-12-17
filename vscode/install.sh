@@ -14,6 +14,7 @@ if test "$(which code)"; then
   # joshpeng.sublime-babel-vscode
   # mauve.terraform
   # ms-vscode.Go
+  # jpoissonnier.vscode-styled-components
   modules="
     aaronthomas.vscode-snazzy-operator
     alefragnani.project-manager
@@ -34,7 +35,6 @@ if test "$(which code)"; then
     formulahendry.auto-close-tag
     formulahendry.auto-rename-tag
     idleberg.applescript
-    jpoissonnier.vscode-styled-components
     mikestead.dotenv
     ms-azuretools.vscode-docker
     msjsdiag.debugger-for-chrome

@@ -35,7 +35,7 @@ brew 'gnutls'
 brew 'gnu-indent'
 brew 'gnu-getopt'
 
-antibody
+# antibody
 tap 'getantibody/homebrew-antibody'
 brew 'antibody'
 

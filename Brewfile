@@ -1,6 +1,6 @@
 cask_args appdir: '/Applications'
 
-tap 'homebrew/bundle'
+# tap 'homebrew/bundle'
 
 brew 'diff-so-fancy'
 brew 'ffmpeg'
@@ -11,8 +11,8 @@ brew 'htop-osx'
 brew 'shellcheck'
 brew 'terminal-notifier'
 brew 'the_silver_searcher'
-brew 'unrar'
-brew 'vim', args: ['--override-system-vi']
+# brew 'unrar'
+# brew 'vim', args: ['--override-system-vi']
 brew 'wget'
 brew 'zsh'
 brew 'yarn'
@@ -36,8 +36,8 @@ brew 'gnu-indent'
 brew 'gnu-getopt'
 
 # antibody
-tap 'getantibody/homebrew-antibody'
-brew 'antibody'
+# tap 'getantibody/homebrew-antibody'
+# brew 'antibody'
 
 # casks
 # tap 'homebrew/cask-fonts'

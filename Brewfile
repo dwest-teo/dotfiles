@@ -38,6 +38,7 @@ brew 'gnu-getopt'
 # antibody
 # tap 'getantibody/homebrew-antibody'
 # brew 'antibody'
+brew 'antidote'
 
 # casks
 # tap 'homebrew/cask-fonts'

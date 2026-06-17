@@ -10,6 +10,8 @@ if test "$(which code)"; then
   ln -sf "$ZSH/vscode/keybindings.json" "$VSCODE_HOME/User/keybindings.json"
 
   # from `code --list-extensions`
+      # joshpeng.sublime-babel-vscode
+    # jpoissonnier.vscode-styled-components
   modules="
     aaronthomas.vscode-snazzy-operator
     alexkrechik.cucumberautocomplete
@@ -34,8 +36,6 @@ if test "$(which code)"; then
     GraphQL.vscode-graphql
     hashicorp.terraform
     idleberg.applescript
-    # joshpeng.sublime-babel-vscode
-    # jpoissonnier.vscode-styled-components
     kvnxush.one-dark-operator-theme
     mikestead.dotenv
     ms-azuretools.vscode-docker

@@ -23,7 +23,7 @@ brew 'lolcat'
 brew 'jq'
 brew 'imagemagick'
 # brew 'archey'
-brew 'neofetch'
+# brew 'neofetch'
 
 # gnu stuff
 brew 'coreutils'

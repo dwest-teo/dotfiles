@@ -34,8 +34,8 @@ if test "$(which code)"; then
     GraphQL.vscode-graphql
     hashicorp.terraform
     idleberg.applescript
-    joshpeng.sublime-babel-vscode
-    jpoissonnier.vscode-styled-components
+    # joshpeng.sublime-babel-vscode
+    # jpoissonnier.vscode-styled-components
     kvnxush.one-dark-operator-theme
     mikestead.dotenv
     ms-azuretools.vscode-docker

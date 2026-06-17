@@ -27,7 +27,7 @@ brew 'imagemagick'
 
 # gnu stuff
 brew 'coreutils'
-brew 'findutils'
+# brew 'findutils'
 brew 'gnu-tar'
 brew 'gnu-sed'
 brew 'gawk'
